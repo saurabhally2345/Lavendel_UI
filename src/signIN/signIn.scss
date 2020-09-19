@@ -1,0 +1,23 @@
+.ImageR{
+  display: flex;
+  justify-content: center;
+  min-width: 100%;
+
+}
+.circular--square {
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+  }
+  .buttonDesign{
+      background-color: greenyellow;
+      padding: 45px;
+      padding-bottom: 10px;
+  }
+
+   .btn-primary{
+      background-color: red;
+      min-width: 100%;
+      padding:20px
+  }

@@ -1,0 +1,24 @@
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    padding-left: 6%;
+
+}
+
+.flex-container >div{
+ min-width: 24%;
+ line-height: 14.5;
+ display: flex;
+ justify-content: space-around;
+ margin-left: 1%;
+ 
+}
+
+.headingaAlign{
+    padding-top:8%;
+    padding-left: 5%;
+
+}
+.imageWidth{
+    min-width: 60%;
+}

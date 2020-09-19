@@ -1,0 +1,25 @@
+$primary-color:#6262ef;
+.iconsPainting{
+    background-color: #94e794;
+    display: flex;
+    justify-content: flex-start;
+    }
+    .iconsHomeCleaning{
+        background-color: #eed202;
+        display: flex;
+    justify-content: flex-start;
+    }
+    .iconsPestControl{
+        background-color: #002366;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .cardDesignPlumb{
+        background-color:$primary-color;
+        display: flex;
+        justify-content: flex-start;
+        }
+        .cardSize{
+            padding-left: 55px;
+            padding-top: 99px;
+        }

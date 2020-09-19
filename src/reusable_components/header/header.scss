@@ -1,0 +1,233 @@
+$primary-color: #6262ef;
+$border-radius:6px;
+$font-size:25px;
+
+.logoSize{
+  max-width: 100%;
+  padding-top: 1%;
+  padding-left: 4%;
+
+}
+.logoHeight{
+  min-width: 0%;
+}
+.mapDesign{
+    color:#f1f1f1;
+    display: flex;
+    flex-direction:column;
+    max-width: 19%;
+}
+.mapText{
+    display: flex;
+    justify-content:start;
+    color: #ffffff;
+
+}
+.inputColumn{
+  padding-top: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: fixed;
+  min-width: 100%;
+   max-height: 10%;
+   padding-top: 8px;
+}
+.inputField{
+display: flex;
+justify-content: flex-end;
+  width: 30%;
+  text-align: center;
+  outline: none;
+  border-right: none;
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  color: #9DBFAF;
+  z-index: 0;
+}
+
+.searchButton{
+  display: flex;
+  justify-content: flex-start;
+// padding-right: 16PX;
+min-width: 40px;
+position: absolute;
+outline: none;
+  z-index: 1;
+  // padding-top: 13px;
+}
+
+.overlay {
+    display: flex;
+    flex-direction:column;
+    width: 100%;
+    position: fixed;
+    // z-index: 1;
+    top: 0;
+    left: 0;
+    max-height: 10%;
+    background-color: $primary-color;
+   
+  }
+  .myOverlay{
+    display: flex;
+    flex-direction: column;
+  }
+  .searchIcon{
+    display: flex;
+    justify-content: start;
+  }  
+  .overlay-content {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+
+  // .overlay input[type=text] {
+  //   height: 10%;
+  //   font-size: 17px;
+  //   border: none;
+  //   float: left;
+  //   // width: 80%;
+  //   background: white;
+  //   border-radius: $border-radius;
+  // }
+  
+  // .overlay input[type=text]:hover {
+  //   background: #f1f1f1;
+  // }
+  
+  @media screen and (max-width: 992px){
+    .overlay {
+        width: 100%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: rgb(0,0,0);
+        background-color: $primary-color; 
+      }
+
+      .overlay-content {
+        position: relative;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-top: 15px;
+      }
+          
+      }
+      @media screen and (max-height: 600px){
+        .overlay {
+            height: 20%;
+            width: 100%;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: rgb(0,0,0);
+            background-color: $primary-color; 
+          }
+    
+          .overlay-content {
+            position: relative;
+            width: 100%;
+            display: flex;
+            justify-content: flex-end;
+            padding-top: 25px;
+          }
+              
+          }
+          @media screen and (max-width: 320px ) {
+            .overlay {
+              height: 100%;
+              width: 100%;
+              position: fixed;
+              z-index: 1;
+              top: 0;
+              left: 0;
+              background-color: rgb(0,0,0);
+              background-color: $primary-color; 
+            }
+      
+            .overlay-content {
+              position: relative;
+              width: 100%;
+              display: flex;
+              justify-content: end;
+            }
+            .mapDesign{
+              top:25%;
+              color:#f1f1f1;
+              font-size:$font-size;
+              font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            display: none;
+          }
+          .mapText{
+              display: flex;
+              justify-content:flex-end;
+          }
+          .overlay input[type=text] {
+            height: 100%;
+            font-size: 17px;
+            border: 2px solid darkmagenta;
+            float: left;
+            width: 200%;
+            background: darkcyan;
+            opacity: 0.9;
+            border-radius: $border-radius;
+            color: white;
+          }
+          #search{
+            width: 100%;
+
+          }          
+          }
+          
+          @media screen and (max-width: 680px){
+            .overlay input[type=text] {
+              height: 100%;
+              font-size: 17px;
+              border: 2px solid darkmagenta;
+              float: left;
+              width: 200%;
+              background: darkcyan;
+              opacity: 0.9;
+              border-radius: $border-radius;
+              color: white;
+            }
+            #search{
+              width: 100%;
+  
+            }
+
+            }
+             @media screen and (max-width: 980px){
+            .overlay input[type=text] {
+              height: 100%;
+              font-size: 17px;
+              border: 2px solid darkmagenta;
+              float: left;
+              width: 200%;
+              background: darkcyan;
+              opacity: 0.9;
+              border-radius: $border-radius;
+              color: white;
+              
+            }
+            #search{
+              width: 100%;
+  
+            }          
+            }
+            .overlay-search {
+              position: relative;
+              width: 100%;
+              display: flex;
+              justify-content: center;
+              padding-top: 10px;
+            }
+            
