@@ -1,0 +1,41 @@
+#react-paginate ul {
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  #react-paginate li {
+    display: inline-block;
+  }
+
+  .inputColumnFG{
+    padding-top: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    // position: fixed;
+    min-width:75%;
+    max-height: 10%;
+    padding-top: 22px;
+  }
+  .inputFieldFG{
+  display: flex;
+    justify-content: flex-end;
+    width: 94%;
+    text-align: center;
+    outline: none;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    color: #9DBFAF;
+    z-index: 0;
+  }
+  .searchButtonFG{
+    display: flex;
+    justify-content: flex-start;
+  // padding-right: 16PX;
+  min-width: 40px;
+  position: absolute;
+  outline: none;
+    z-index: 1;
+  }

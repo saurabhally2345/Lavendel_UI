@@ -1,0 +1,26 @@
+.sideBar{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    background-color: #FFFFFF;
+    padding: 0%;
+    min-height: 97vh;
+    justify-content: flex-start;
+    &:last-child {
+        padding-top: 0%;
+        padding-bottom: 0%;    
+      }
+}  
+.itemIcon{
+    padding-top: 10%;
+    display: flex;
+    justify-content: center;    
+  }     
+
+
+@media only screen and (max-width:600px){
+    .sideBar{
+        // display: none;
+        max-width: 10%;
+    }
+}

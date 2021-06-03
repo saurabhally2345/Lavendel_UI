@@ -1,0 +1,57 @@
+.registerPage{
+    display: flex;
+    flex-direction: row;
+    // max-width: 100%;
+    
+    // max-height: 95%;
+}
+.registerForm{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    // min-width: 25%;
+    overflow: hidden;
+}
+.imageSection{
+    display: flex;
+    min-width: 75%;
+    // max-height: 80%;
+}
+.ImageL{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 12%;
+    // padding-top: 6%;
+}
+.lavendelh{
+max-width: 80%;
+
+}
+.inputfield{
+    display: flex;
+    justify-content: flex-start;
+    // padding-right: 4%;
+    // padding-top: 20%;
+}
+// .headingInput{
+//     display: flex;
+//     justify-content: space-between;
+// }
+// @media  (min-width:320px){
+//     .lavendelh{
+//         min-width: 94%;
+//     }
+//     .registerPage{
+//         display: flex;
+//         flex-direction: row;
+//         min-width: 38%;
+//         min-height: 100%;
+//     }
+//     .registerForm{
+//         display: flex;
+//         flex-direction: column;
+//         background-color: slategray;
+//         min-width: 38%;
+    
+//     }   
+// }
